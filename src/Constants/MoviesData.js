@@ -1,0 +1,92 @@
+export const moviesData = [            //  exports an array named moviesData containing multiple movie objects. Each movie object represents a movie and has properties like title, description, posterURL, and rating. The title property represents the title of the movie, the description property represents a description of the movie, the posterURL property contains the URL of the movie's poster image, and the rating property represents the rating of the movie.  The array contains various movie objects with different properties, each representing a specific movie.
+    {
+        title: "Skull Island (2023)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/YSBRqCQH/Skull-Island-3-2023.jpg",
+        rating: 5,
+    },
+    {
+        title: "Mummies (2023)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/Ss0bZDfL/Mummies-2023.jpg",
+        rating: 1,
+    },
+    {
+        title: "Batman: The Doom That Came to Gotham (2023)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/sX8377Tq/Batman-The-Doom-That-Came-to-Gotham-2023.jpg",
+        rating: 5,
+    },
+    {
+        title: "Legion of Superheroes (2023)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/q7yFjnBW/Legion-of-Superheroes-2023.jpg",
+        rating: 5,
+    },
+    {
+        title: "Strange World (2022)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL:"https://i.postimg.cc/rmhNJF4v/Strange-World-2022.jpg",
+        rating: 5,
+    },
+    {
+        title: "The Amazing Maurice (2022)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/vTFWYPJZ/The-Amazing-Maurice-2022.jpg",
+        rating: 4,
+    },
+    {
+        title: "Gullirme del Toro`s Pinnochio (2022)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/vH84rFtd/Gullirme-del-Toro-s-Pinnochio-2022.jpg",
+        rating: 3,
+    },
+    {
+        title: "Night at the Museum Kahmunrah Rises Again (2022)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/NjCypJfP/Night-at-the-Museum-Kahmunrah-Rises-Again-2-2022.jpg",
+        rating: 5,
+    },
+    {
+        title: "Starwash: The Bad Batch (2021)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/Rhp418vM/Starwash-The-Bad-Batch-2021.jpg",
+        rating: 5,
+    },
+    {
+        title: "Lyle Lyle Crocodile (2022)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/0yphP3hb/Lyle-Lyle-Crocodile-2022.jpg",
+        rating: 2,
+    },
+    {
+        title: "Disenchanted (2022)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/kM2JqJsG/Disenchanted-2022.jpg",
+        rating: 2,
+    },
+    {
+        title: "Tom and Jerry: Snowman`s Land (2022)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/3wwM11bN/Tom-and-Jerry-Snowman-s-Land-2022.jpg",
+        rating: 3,
+    },
+    {
+        title: "The Soccer Football Movie (2022)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/gkyfPQCr/The-Soccer-Football-Movie-2022.jpg",
+        rating: 4,
+    },
+    {
+        title: "Tad the Lost Explorer and the Emerald Tablet (2022)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/85r0X0dp/Tad-the-Lost-Explorer-and-the-Emerald-Tablet-2022.jpg",
+        rating: 5,
+    },
+    {
+        title: "Aqua Teen Forever: Plantasm (2022)",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aliquam. Sit exercitationem alias excepturi sint officia at magnam quas dignissimos.",
+        posterURL: "https://i.postimg.cc/wMr3x3yc/Aqua-Teen-Forever-Plantasm-2022.jpg",
+        rating: 1,
+    },
+]
