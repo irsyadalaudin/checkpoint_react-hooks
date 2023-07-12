@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */                        /* eslint-disable react/prop-types */
-import React, { useState } from 'react';                     
+import { useState } from 'react';                     
 
 const Add = ({movies, setMovies}) => {
     const [title, setTitle] = useState('');                  // State variables to hold the input values
