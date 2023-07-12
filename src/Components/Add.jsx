@@ -1,13 +1,13 @@
-/* eslint-disable react/prop-types */                        /* eslint-disable react/prop-types */
+/* eslint-disable react/prop-types */                    /* eslint-disable react/prop-types */
 import { useState } from 'react';                     
 
-const Add = ({movies, setMovies}) => {
-    const [title, setTitle] = useState('');                  // State variables to hold the input values
+const Add = ({movies, setMovies}) => {                   // Initializing movies state with moviesData and the setMovies function
+    const [title, setTitle] = useState('');              // State variables to hold the input values
     const [description, setDescription] = useState('');
     const [posterURL, setPosterURL] = useState('');
     const [rating, setRating] = useState(0);
 
-    const addMovie = () => {                                 // Function to add a new movie to the list
+    const addMovie = () => {                     // Function to add a new movie to the list
         const newMovie = {
             title: title,
             description: description,
@@ -16,13 +16,13 @@ const Add = ({movies, setMovies}) => {
             };
             setMovies([...movies, newMovie]);
 
-        setTitle('');                                        // Resetting the input fields
+        setTitle('');                            // Resetting the input fields
         setDescription('');
         setPosterURL('');
         setRating(0);
     };
 
-    const handleEnterPress = (e) => {                       // Function to handle Enter key press event
+    const handleEnterPress = (e) => {            // Function to handle Enter key press event
         if (e.key === "Enter") {
             addMovie();
         }
@@ -39,4 +39,4 @@ const Add = ({movies, setMovies}) => {
     );
 }
 
-export default Add;
+export default Add;                              // Export the Add component
