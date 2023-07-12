@@ -5,7 +5,7 @@ const MovieList = ({movies}) => {                                        // Defi
     return (
         <div className="d-flex flex-wrap justify-content-center">        {/* Render a div element with classes and flexbox properties */}
             {movies.map((movie) => (                                     // Map over the movies array and return MovieCard component for each movie
-                <MovieCard key={movie} {...movie} />                     // Render the MovieCard component with key and spread the movie object as props
+                <MovieCard key={movie.title} {...movie} />                     // Render the MovieCard component with key and spread the movie object as props
             ))}
         </div>
     );
