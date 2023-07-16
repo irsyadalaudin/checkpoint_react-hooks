@@ -1,6 +1,6 @@
-import "./App.css"											        // Importing the CSS file for App component styling
+import "./App.css"; 										        // Importing the CSS file for App component styling
 import "bootstrap/dist/css/bootstrap.min.css";				        // Importing Bootstrap CSS for styling
-import MovieList from "./Components/MovieList"				        // Importing the MovieList component
+import MovieList from "./Components/MovieList";				        // Importing the MovieList component
 import { moviesData } from "./Constants/MoviesData";                // Importing moviesData from a separate file
 import { useState } from "react";							        // Importing the useState hook from React
 import Add from "./Components/Add";								    // Importing the Add component
